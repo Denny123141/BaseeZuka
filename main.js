@@ -40,7 +40,7 @@ const starts = async (helga = new WAConnection()) => {
 	console.log(color('\n> YouTube : ','silver'), color(`Helga Zexs`,'mediumseagreen'))
 console.log(color('> TikTok : ','silver'), color(`@ilhamgz_20`,'mediumseagreen'))
 console.log(color('> Instagram : ','silver'), color(`@helga_store20`,'mediumseagreen'))
-	helga.browserDescription = [ 'Base Helga', 'ubuntu', '3.0' ]
+	helga.browserDescription = [ 'Denny', 'ubuntu', '3.0' ]
 
 	helga.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('Helga Base'))
@@ -69,8 +69,8 @@ exec(`cd /sdcard/download && play *mp3`)
    
    helga.on('chat-update', async (mek) => {
         require('./helga.js')(helga, mek)
-        ownerNumber = ["6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6282138919347@s.whatsapp.net"
+        ownerNumber = ["6282133048747@s.whatsapp.net","6282133048747@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6282133048748@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
     
